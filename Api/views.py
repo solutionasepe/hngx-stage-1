@@ -13,8 +13,8 @@ def my_view(request):
     
     utc_time = datetime.now(timezone.utc).strftime('%Y-%m-%dT%H:%M:%SZ')
     current_day = datetime.now().strftime('%A')
-    github_repo_url="https://github.com/solutionasepe/hngx-stage-one.git"
-    github_file_url = "https://github.com/solutionasepe/hngx-stage-one/blob/main/Api/views.py"
+    github_repo_url="https://github.com/solutionasepe/hngx-stage-1.git"
+    github_file_url = "https://github.com/solutionasepe/hngx-stage-1/blob/main/Api/views.py"
 
     # Do something with the values
     response = {
